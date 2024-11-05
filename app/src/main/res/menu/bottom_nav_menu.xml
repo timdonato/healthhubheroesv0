@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/navHome"
+        android:title="@string/menu_home" />
+    <item android:title="@string/menu_patient"
+        android:icon="@drawable/baseline_people_24"
+        android:id="@+id/navPatient" />
+    <item android:title="@string/menu_appointment"
+        android:icon="@drawable/baseline_calendar_today_24"
+        android:id="@+id/navAppointment" />
+    <item android:title="@string/menu_account"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:id="@+id/navAccount" />
+</menu>

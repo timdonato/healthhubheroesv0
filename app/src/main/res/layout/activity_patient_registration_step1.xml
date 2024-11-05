@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<!-- Scrollable Content -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/bnBottomNav"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!-- Top Image (Icon) -->
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo" />
+
+        <!-- Enter Personal Health Number Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/tvEnterPHN"
+            android:textSize="16sp" />
+
+        <!-- Personal Health Number Input and Search Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etPersonalHealthNumber"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Personal Health Number"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6B4DA5"
+                android:text="@string/btSearch"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Section Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/primaryBlue"
+            android:padding="8dp"
+            android:text="Patient Registration - Step 1 of 3"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Patient Information Title with Icon -->
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:layout_marginTop="8dp"-->
+        <!--            android:gravity="center_vertical">-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="24dp"-->
+        <!--                android:layout_height="24dp"-->
+        <!--                android:src="@drawable/ic_info"-->
+        <!--                android:contentDescription="Info Icon"-->
+        <!--                android:layout_marginEnd="8dp" />-->
+
+
+        <!--        </LinearLayout>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/tvPatientInfo"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- First Name Input -->
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/tvFirstName"
+            android:inputType="textPersonName" />
+
+        <!-- Last Name Input -->
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/tvLastName"
+            android:inputType="textPersonName" />
+
+        <!-- Sex Dropdown -->
+        <Spinner
+            android:id="@+id/spinnerSex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:prompt="@array/sex" />
+
+        <!-- Date of Birth Input with Calendar Icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/etDateOfBirth"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="@string/tvAppointmentDate"
+                android:inputType="date" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/baseline_calendar_today_24"
+                android:contentDescription="Calendar Icon" />
+        </LinearLayout>
+
+        <!-- Marital Status Dropdown -->
+        <Spinner
+            android:id="@+id/spinnerMaritalStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:prompt="@array/maritalStatus" />
+
+        <!-- Language Dropdown -->
+        <Spinner
+            android:id="@+id/spLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:prompt="@array/languages" />
+
+        <!-- Ethnicity Dropdown -->
+        <Spinner
+            android:id="@+id/spEthnicity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:prompt="@array/ethnicities" />
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#6B4DA5"
+            android:text="@string/btNext"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+<!-- Bottom Navigation View -->
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bnBottomNav"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

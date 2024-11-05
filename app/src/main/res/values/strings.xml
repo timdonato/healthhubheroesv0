@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">HealthHubHeroes</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_patient">Patient</string>
+    <string name="menu_appointment">Appointment</string>
+    <string name="menu_account">Account</string>
+    <string name="slogan">Your Health, Our Heroic Commitment</string>
+    <string name="tvPatientList">Patient List</string>
+    <string name="btAddPatient">Add Patient</string>
+    <string name="age">Age: %1$d</string>
+    <string name="tvPatientInfo">Patient Information</string>
+    <string name="tvRegistrationStep1">Patient Registration - Step 1 of 3</string>
+    <string name="tvRegistrationStep2">Patient Registration - Step 2 of 3</string>
+    <string name="tvRegistrationStep3">Patient Registration - Step 3 of 3</string>
+    <string name="tvFirstName">First Name</string>
+    <string name="tvLastName">Last Name</string>
+    <string name="tvSex">Sex</string>
+    <string name="tvDateOfBirth">Date of Birth</string>
+    <string name="tvMaritalStatus">Marital Status</string>
+    <string name="tvLanguage">Language</string>
+    <string name="tvEthnicity">Ethnicity</string>
+    <string name="btNext">Next</string>
+    <string name="btBack">Back</string>
+    <string name="btSave">Save</string>
+    <string name="btSearch">Search</string>
+    <string name="tvEnterPHN">Enter Personal Health Number</string>
+    <string name="tvContactInfo">Contact Information</string>
+    <string name="tvStreetAddress">Street Address</string>
+    <string name="tvAptNo">Apartment #</string>
+    <string name="tvCity">City</string>
+    <string name="tvProvince">Province</string>
+    <string name="tvZipcode">Zip Postal Code</string>
+    <string name="tvEmploymentInfo">Employment Information</string>
+    <string name="tvEmploymentStatus">Employment Status</string>
+    <string name="tvEmployer">Employer</string>
+    <string name="tvOccupation">Occupation</string>
+    <string name="tvPatientNotes">PatientNotes</string>
+    <string name="tvMedicationTracking">Medication Tracking</string>
+    <string name="tvMedicationName">Medication Name: %1$s</string>
+    <string name="tvMedicationDate">Date: %1$s</string>
+    <string name="tvMedicationDosage">Dosage: %1$d mg</string>
+    <string name="tvMedicationFrequency">Frequency: %1$s</string>
+    <string name="tvMedicationDuration">Duration: %1$s</string>
+    <string name="tvMedicationPrice">Price: $%1$.2f</string>
+    <string name="btAddNewPrescription">Add New Prescription</string>
+    <string name="tvNewMedication">New Medication</string>
+    <string name="tvAppointmentScheduling">Appointment Scheduling</string>
+    <string name="tvAppointmentDate">Appt Date: %1$s</string>
+    <string name="tvAppointmentTime">Appt Time: %1$s</string>
+    <string name="tvAppointmentType">Appt Type: %1$s</string>
+    <string name="tvAppointmentStatus">Status: %1$s</string>
+    <string name="btAddAppointment">Add Appointment</string>
+    <string name="btEditAppointment">Edit Appointment</string>
+    <string name="tvNewAppointment">New Appointment</string>
+    <string name="tvTelemedicine">Telemedicine</string>
+    <string name="tvSessionDate">Session Date: %1$s</string>
+    <string name="tvSessionTime">Time: %1$s</string>
+    <string name="btJoin">Join</string>
+    <string name="btEditTelemedicineSession">Edit Telemedicine Session</string>
+    <string name="btAddTelemedicineSession">Add Telemedicine Session</string>
+    <string name="tvNewSession">New Session</string>
+    <string name="tvPaymentTransaction">Payment Transaction</string>
+    <string name="tvInvoiceNumber">Invoice No: %1$s</string>
+    <string name="tvInvoiceDate">Invoice Date: %1$s</string>
+    <string name="tvConsultationFee">Consultation Fee: $%1$.2f</string>
+    <string name="tvMedicationCost">Medication Cost: $%1$.2f</string>
+    <string name="tvTotalAmount">Total Amount: $%1$.2f</string>
+    <string name="tvPaymentMethod">Payment Method: %1$s</string>
+    <string name="btProcessPayment">Process Payment</string>
+    <string name="btGenerateInvoice">Generate Invoice</string>
+    <string name="btAllPaymentTransactions">All Payment Transactions</string>
+    <string name="tvEditPatient">Edit Patient</string>
+    <string-array name="maritalStatus">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widowed</item>
+    </string-array>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="languages">
+        <item>English</item>
+        <item>French</item>
+        <item>Indigenous</item>
+        <item>Mandarin</item>
+        <item>Punjabi</item>
+        <item>Spanish</item>
+        <item>Tagalog</item>
+        <item>Arabic</item>
+        <item>German</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="provinces">
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Nova Scotia</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+        <!-- Territories -->
+        <item>Northwest Territories</item>
+        <item>Nunavut</item>
+        <item>Yukon</item>
+    </string-array>
+    <string-array name="ethnicities">
+        <item>Indigenous</item>
+        <item>European</item>
+        <item>South Asian</item>
+        <item>Chinese</item>
+        <item>Black</item>
+        <item>Filipino</item>
+        <item>Latin American</item>
+        <item>Middle Eastern</item>
+        <item>Southeast Asian</item>
+        <item>Korean</item>
+        <item>Japanese</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
